@@ -3,6 +3,7 @@ import Row from "../components/Row"
 import Col from "../components/Col"
 import Jumbotron from "../components/Jumbotron"
 import Parallex from "../components/Parallax"
+import Media from "../components/Media"
 
 function Main() {
     return (
@@ -18,7 +19,7 @@ function Main() {
                 <Jumbotron>
                     <Row>
                         <Col size="md-6">
-                                <Parallex />
+                                <Parallex bgImage="/Users/davidroman/Desktop/react_portfolio/src/images/EB3F6718-EFF7-4F0C-AFC1-A717CE4D5AFD_1_105_c.jpeg"/>
                         </Col>
 
                         <Col size="md-6">
@@ -36,7 +37,12 @@ function Main() {
                             institute of technology for a short period of time. During my free time, I write music and mix vocals
                             for local artist. I enjoy reading as it reveals things in a new light, and brew Kombucha to share with
                 my friends and family.</p>
+
+                <Media />
                         </Col>
+                       
+                       
+                       
                     </Row>
                 </Jumbotron>
             </Row>

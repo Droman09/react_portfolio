@@ -1,10 +1,14 @@
-.footer {
-    min-height: 0px;
+.footer-div {
     position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: black;
     color: white;
     text-align: center;
+    min-height: 10px;
  }
+
+
+ @media only screen and (min-width: 966px) {
+}

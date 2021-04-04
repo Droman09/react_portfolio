@@ -1,14 +1,17 @@
 import React from "react"
 import { Parallax } from 'react-parallax';
+import Image from "/Users/davidroman/Desktop/react_portfolio/src/images/profile.jpg"
 
-const ParallaxImage = (props) => {
+
+
+
+const ParallaxImage = () => {
     return(
-        <>
-    <Parallax bgImage= {props.scr} bgImageAlt="profile pic" strength={200} >
+    <Parallax bgImage={Image} strength={200} >
         <div style={{height: 350}}>
         </div>
     </Parallax>
-    </>
+    
     )
 }
 

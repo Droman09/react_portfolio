@@ -19,10 +19,13 @@ function Main() {
                 <Jumbotron>
                     <Row>
                         <Col size="md-6">
-                            <Parallex bgImage="/Users/davidroman/Desktop/react_portfolio/src/images/EB3F6718-EFF7-4F0C-AFC1-A717CE4D5AFD_1_105_c.jpeg" />
+                            <Parallex  />  
+                            <Row> <Media /></Row>
+                            
                         </Col>
 
                         <Col size="md-6">
+                            <h1>About me</h1>
                             <p >I was born and raised in the city of Chicago, Illinois. A son of immigrant parents from
                             Mexican descent and the second oldest of two brothers and a sister diagnosed with down syndrome. Even
                             though my sister needs were a priority, my parents supported and loved each of us individually and as a
@@ -37,9 +40,10 @@ function Main() {
                             institute of technology for a short period of time. During my free time, I write music and mix vocals
                             for local artist. I enjoy reading as it reveals things in a new light, and brew Kombucha to share with
                 my friends and family.</p>
-                
 
-                            <Media />
+                            
+
+                         
                         </Col>
 
 

@@ -4,6 +4,7 @@ import Col from "../components/Col"
 import Jumbotron from "../components/Jumbotron"
 import Parallex from "../components/Parallax"
 import Media from "../components/Media"
+import Footer from "../components/Footer";
 
 function Main() {
     return (
@@ -51,7 +52,9 @@ function Main() {
                     </Row>
                 </Jumbotron>
             </Row>
+            <Footer />
         </div>
+        
     )
 }
 

@@ -13,8 +13,8 @@ function App() {
         <Router>
         <div>
             <Navbar />
+           
             <Route  exact path="/" component= {Main} />
-            <Route  exact path="/main" component= {Main} />
             <Route  exact path="/portfolio" component={Portfolio} />
         </div>
         </Router>
